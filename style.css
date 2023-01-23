@@ -1,0 +1,269 @@
+                body {
+                    font-family: 'Montserrat', sans-serif;
+                    background-color: #e6e8e3;
+                    width: auto auto;
+                }
+
+                header {
+                    background-color: #CED4DA;
+                    padding: 20px 0;
+                }
+
+                .contenedor-header {
+                    width: 940px;
+                    position: relative;
+                    margin: 0 auto;
+                }
+
+                .h1 {
+                    position: absolute;
+                    font-size: 22px;
+                    left: 59px;
+                }
+
+                .contenedor {
+                    width: 940px;
+                    margin: 20px auto;
+                }
+
+                .incriptador {
+                    width: 60%;
+                    border-radius: 10px;
+                    display: inline-block;
+                    margin: auto;
+                    height: 400px;
+                    background-color: #e6e8e3;
+                    vertical-align: top;
+                }
+
+                .texto-ingresado {
+                    display: block;
+                    margin: 10px auto 30px 60px;
+                    font-size: 23px;
+                    border: none;
+                    background-color: #e6e8e3;
+                    padding: 10px;
+                    text-transform: lowercase;
+                }
+
+                .texto-ingresado:focus{
+                    outline: none;
+                }
+                p {
+                    width: auto;
+                    font-size: 12px;
+                    margin-left: 30px;
+                }
+
+                .items-incriptador {
+                    display: inline-block;
+                    margin: auto 30px;
+                    font-size: 22px;
+                    padding: 10px 15px;
+                    border-radius: 10px;
+                    border: none;
+                    background-color: #8f9a9c;
+                }
+
+                .items-desincriptador {
+                    display: inline-block;
+                    margin: auto 30px;
+                    font-size: 22px;
+                    padding: 10px 15px;
+                    border-radius: 10px;
+                    border: none;
+                }
+
+                .desincriptar {
+                    width: 300px;
+                    display: inline-block;
+                    margin: auto 70px auto auto;
+                    height: 400px;
+                    background-color: #FFFFFF;
+                    border-radius: 10px;
+                    transition: 400ms;
+                    box-shadow: 10px 10px 10px #000000;
+                }
+
+                .imagen_fondo {
+                    display: block;
+                    width: 60%;
+                    margin: 20px auto;
+                }
+
+                .resultado-area {
+                    height: 100px;
+                    margin: 0 auto auto auto;
+                    border-radius: 10px;
+                    border: none;
+                    font-size: 20px;
+                    display: block;
+                    background-color: #FFFFFF;
+                    resize: none;
+                }
+
+                .resultado-area::placeholder {
+                    color: #000000;
+                    text-align: center;
+                    font-size: 18px;
+
+                }
+
+                .item-resultado {
+                    font-size: 22px;
+                    padding: 10px 15px;
+                    border-radius: 10px;
+                    border: none;
+                    margin: 70% auto;
+                    display: none;
+                }
+
+                @media screen and (max-width:912px) {
+
+                    .contenedor-header {
+                        width: auto;
+                    }
+
+                    h1 {
+                        width: auto;
+                        margin-left: 20px;
+                    }
+
+                    .contenedor {
+                        width: auto;
+                        margin: auto;
+                        display: block;
+                    }
+
+                    .incriptador {
+                        width: auto;
+                        margin: auto;
+                        display: block;
+                        padding: 20px;
+                    }
+                    .texto-ingresado{
+                        width: auto;
+                        margin-right: 10px;
+                    }
+                    .items-incriptador {
+                        display: inline-block;
+                        width: auto;
+                    }
+
+                    .items-desincriptador {
+                        display: inline-block;
+                        width: auto;
+                    }
+
+                    .desincriptar {
+                        margin: 40px auto;
+                        width: 50%;
+                        display: block;
+                        height: 500px;
+                    }
+
+                }
+
+                @media screen and (max-width:480px) {
+
+                    .contenedor-header {
+                        width: auto;
+                    }
+
+                    h1 {
+                        width: auto;
+                        margin-left: 20px;
+                    }
+
+                    .contenedor {
+                        width: auto;
+                        margin: 20px;
+                    }
+
+                    .incriptador {
+                        width: auto;
+                        display: inline-block;
+                        margin-left: 10px;
+                        height: auto;
+                    }
+
+                    .texto-ingresado {
+                        width: auto;
+                        margin: auto;
+                        font-size: 15px;
+                    }
+
+                    p {
+                        width: auto;
+                        display: block;
+                    }
+                    .desincriptar{
+                        width: auto;
+
+                    }
+                    .items-incriptador {
+                        display: inline;
+                        width: 40%;
+                        padding: 2px;
+                        font-size: 19px;
+                        margin: 10px auto 0 auto;
+                    }
+
+                    .items-desincriptador {
+                        display: inline;
+                        width: 40%;
+                        padding: 2px;
+                        font-size: 19px;
+                        margin: 10px auto 0 auto;
+                    }
+
+                    .desincriptar {
+                        width: auto;
+                        height: 170px;
+                        display: block;
+                        margin: 20px;
+                    }
+
+                    .item-resultado {
+                        display: inline-block;
+                        font-size: 19px;
+                        width: auto;
+                        margin: 10px 100px;
+                        padding: 10px;
+                    }
+
+                    .imagen_fondo {
+                        display: none;
+                    }
+                }
+
+                @media screen and (max-width:280px) {
+                    .contenedor-header{
+                        width: auto;
+                    }
+                    body {
+                        font-size: 10px;
+                    }
+                    .contenedor{
+                        width: auto;
+                    }
+                    .incriptador{
+                        width: auto;
+                        margin: auto;
+                    }
+                    .texto-ingresado{
+                        width: 200px;
+                        margin-left: auto;
+                        display: inline;
+                    }
+                    .items-incriptador{
+                        width: auto;
+                    }
+                    .items-desincriptador{
+                        width: auto;
+                    }
+                    .resultado-area{
+                        width: 100px;                                                                                     ;
+                        margin: auto;
+                    }
+                }

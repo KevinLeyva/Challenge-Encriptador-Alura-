@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Challenge - Incriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor-header">
+            <img src="image/Logo.png" alt="logo de Alura">
+            <h1>Bienvenido Encriptador</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="contenedor">
+
+            <div class="incriptador">
+                <textarea required class="texto-ingresado" id="mensaje" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                
+                <p class="fa-sharp fa-solid fa-brake-warning">Solo letras minusculas y sin acentos</p>
+                <input id="incriptar" class="items-incriptador" type="submit" value="Encriptar!">
+                <input id="desifrar" class="items-desincriptador" type="submit" value="Desincriptar!">
+            </div>
+
+            <div class="desincriptar">
+                <img id="imagen_fondo" class="imagen_fondo" src="image/Muñeco.png" alt="Imagen busque inclonclusa">
+                <textarea disabled class="resultado-area" id="area_resultado" cols="22" rows="10"
+                    placeholder="Ningun mensaje fue encontrado Ingrese el texto que desee incriptar o Desincriptar"></textarea>
+                <input id="copiar" class="item-resultado" type="submit" value="Copiar">
+
+            </div>
+
+        </section>
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
